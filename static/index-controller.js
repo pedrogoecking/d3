@@ -42,19 +42,19 @@
 
 
 // *** HEADLINES *** //
-var hl1=["Bruttoformue"];
+var hl1=["Capital Bruto"];
 var text1 = viz.selectAll("text")
                         .data(hl1)
                         .enter()
                         .append("text");
 
-var hl2=["Gjeld"];
+var hl2=["Dívidas"];
 var text2 = viz2.selectAll("text")
                         .data(hl2)
                         .enter()
                         .append("text");
 
-var hl3=["Bruttoinntekt"];
+var hl3=["Renda Bruta"];
 var text3 = viz3.selectAll("text")
                         .data(hl3)
                         .enter()
@@ -268,7 +268,7 @@ for (var v=0; v<m3.length; v++) {
                     .attr("stroke-width", 2)
                     .attr("fill","none");
 
-                    //console.log($objeq(jtab,"Region=='" + leadO(d.properties.fylkesnr) + "' AND ContentsCode=='BrFormue' AND Alder=='999D'"));
+                    console.log($objeq(jtab,"Region=='" + leadO(d.properties.fylkesnr) + "' AND ContentsCode=='BrFormue' AND Alder=='999D'"));
             });
 
         map.selectAll("path")
