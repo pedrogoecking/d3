@@ -18,11 +18,11 @@ h2 {
 
 /* MAP */
 .fylke {
-    fill: #8c8c8c;
+    fill: #008c8c;
 }
 
 .selected {
-    fill: #ababab;
+    fill: #abFFab;
 }
 
 /* SCALES */
